@@ -1,0 +1,95 @@
+<html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+  body {
+  background: url('img/main.jpg') no-repeat center;
+  height: 150px;
+  width: auto;
+  background-size: cover;
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+}
+
+  .heading{
+    margin: 2rem 4rem 4rem 2rem;
+    color:#ffffff;
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+
+  }
+  .sub_heading{
+    margin: 2rem 4rem 4rem 2rem;
+    color:#ffffff;
+    font-size: 1rem;
+
+  }
+  .container {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .admin__btn {
+    margin: 4rem 4rem 4rem 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: #1B66B9;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .admin__btn:hover {
+    transform: scale(1.1);
+  }
+
+  .student__btn {
+    margin: 4rem 4rem 4rem 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: #1B66B9;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .student__btn:hover {
+    transform: scale(1.1);
+  }
+
+  .btn__text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+  }
+</style>
+
+<head>
+  <title>student</title>
+</head>
+
+<body>
+  <h1 class="heading">Report Card Generator</h1>
+  <p class="sub_heading">Report Card Generator allows schools to automatically<br>
+    generate report cards and share with student.</p>
+  <div class="container">
+    <a href="admin.php" class="admin__btn"><span class="btn__text">Teacher</span></a>
+    <a href="student.php" class="student__btn"><span class="btn__text">Student</span></a>
+  </div>
+</body>
+
+</html>
